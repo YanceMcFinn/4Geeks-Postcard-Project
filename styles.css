@@ -1,15 +1,12 @@
 body {
 	background: black;
 }
-* {
-	border: 1px dashed red;
-	min-height: 10px;
-}
 .postcard {
 	background-color: white;
 	width: 400px;
 	height: 300px;
 	margin: auto;
+	padding: 20px;
 }
 .postcard-header {
 	display: flex;
@@ -48,6 +45,7 @@ p {
 }
 .postcard-footer {
 	text-align: center;
+	padding-top: 20px;
 }
 button {
 	background: rgb(0, 142, 205);
@@ -55,5 +53,6 @@ button {
 	padding: 5px 10px 5px 10px;
 	color: white;
 	border-radius: 5px;
+	border: none;
 	font-family: "signika";
 }
